@@ -1,4 +1,4 @@
-const TicketManager = require('./ticketManager.js');
+const TicketManager = require('./ticketManager');
 
 const ticketManager = new TicketManager(10);
 
