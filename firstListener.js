@@ -1,3 +1,4 @@
+const console = require('./logger');
 const TicketManager = require('./ticketManager');
 
 const ticketManager = new TicketManager(10);

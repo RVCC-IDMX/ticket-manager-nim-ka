@@ -1,3 +1,4 @@
+const console = require('./logger');
 const TicketManager = require('./ticketManager');
 const EmailService = require('./emailService');
 const DatabaseService = require('./databaseService');
