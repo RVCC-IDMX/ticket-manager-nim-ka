@@ -4,15 +4,18 @@
         "es2021": true
     },
     "extends": "airbnb-base",
-    "overrides": [
-    ],
+    "overrides": [],
     "parserOptions": {
         "ecmaVersion": "latest"
     },
     "rules": {
         "no-console": "off",
+        "no-plusplus": "off",
         "no-trailing-spaces": "error",
         "semi": "error",
-        "linebreak-style": ["error", "unix"]
+        "linebreak-style": [
+            "error",
+            "unix"
+        ]
     }
 }
